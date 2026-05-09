@@ -48,7 +48,7 @@ export function Contact() {
           {[
             { icon: <Mail className="w-4 h-4" />, label: "rishurana639@gmail.com", href: "mailto:rishurana639@gmail.com" },
             { icon: <Phone className="w-4 h-4" />, label: "+91 6398301762", href: "tel:+916398301762" },
-            { icon: <MapPin className="w-4 h-4" />, label: "Chandigarh, India", href: "#" },
+            { icon: <MapPin className="w-4 h-4" />, label: "India", href: "#" },
           ].map((item) => (
             <a
               key={item.label}

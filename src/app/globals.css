@@ -30,7 +30,7 @@
     animation: spotlight 2s ease 0.75s 1 forwards;
   }
   .dot-grid {
-    background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px);
     background-size: 28px 28px;
   }
 }
@@ -42,8 +42,8 @@ html {
 
 body {
   font-family: var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
-  background-color: #111111;
-  color: #d4d4d4;
+  background-color: #1a1a1a;
+  color: #ededed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -58,9 +58,9 @@ body {
 
 /* ─── Scrollbar ──────────────────────────────── */
 ::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #111111; }
-::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 0; }
-::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+::-webkit-scrollbar-track { background: #1a1a1a; }
+::-webkit-scrollbar-thumb { background: #333333; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #444444; }
 
 /* ─── Selection ──────────────────────────────── */
 ::selection {

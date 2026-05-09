@@ -22,7 +22,7 @@ export function About() {
           </motion.h2>
 
           <motion.p {...fadeUp(0.05)} className="text-zinc-400 text-lg leading-relaxed">
-            I&apos;m a fullstack developer based in Chandigarh with about a year and
+            I&apos;m a fullstack developer based in India with about a year and
             a half of professional experience. Most of my work has been at early-stage
             startups where I&apos;ve had to own features end-to-end — from writing the
             API to shipping the UI.
@@ -52,7 +52,7 @@ export function About() {
           </h3>
           {[
             { label: "Experience", value: "~1.5 years" },
-            { label: "Location", value: "Chandigarh, India" },
+            { label: "Location", value: "India" },
             { label: "Status", value: "Open to work" },
             { label: "Education", value: "BCA, Uttaranchal Univ." },
             { label: "Primary stack", value: "React, Next.js, Node.js" },

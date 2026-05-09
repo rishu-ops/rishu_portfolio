@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Rishu Rana",
   },
   description:
-    "Fullstack developer with 1.5+ years of experience in React.js and Node.js, building fast, clean web applications. Based in Chandigarh, India.",
+    "Fullstack developer with 1.5+ years of experience in React.js and Node.js, building fast, clean web applications. Based in India.",
   keywords: [
     "Rishu Rana",
     "Fullstack Developer",
@@ -32,7 +32,6 @@ export const metadata: Metadata = {
     "Node.js Developer",
     "Frontend Developer",
     "Web Developer",
-    "Chandigarh",
     "India",
   ],
   authors: [{ name: "Rishu Rana", url: siteUrl }],
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rishu Rana — Fullstack Developer",
-    description: "Fullstack developer — React, Next.js, Node.js. Chandigarh.",
+    description: "Fullstack developer — React, Next.js, Node.js. India.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -62,7 +61,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#111111",
+  themeColor: "#1a1a1a",
   width: "device-width",
   initialScale: 1,
 };

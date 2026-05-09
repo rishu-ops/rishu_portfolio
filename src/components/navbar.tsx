@@ -28,7 +28,7 @@ export function Navbar() {
         transition={{ duration: 0.4, ease: "easeOut" }}
         className={cn(
           "fixed top-0 inset-x-0 z-50 transition-all duration-200",
-          scrolled && "border-b border-zinc-800/70 bg-[#111111]/85 backdrop-blur-md"
+          scrolled && "border-b border-zinc-800/70 bg-[#1a1a1a]/85 backdrop-blur-md"
         )}
       >
         <div className="max-w-5xl mx-auto px-4 sm:px-8 h-16 flex items-center justify-between">
@@ -79,7 +79,7 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.15 }}
-            className="fixed top-16 inset-x-0 z-40 bg-[#111111]/95 backdrop-blur-md border-b border-zinc-800/60 md:hidden"
+            className="fixed top-16 inset-x-0 z-40 bg-[#1a1a1a]/95 backdrop-blur-md border-b border-zinc-800/60 md:hidden"
           >
             <nav className="max-w-5xl mx-auto px-4 py-4 flex flex-col gap-0.5">
               {navLinks.map((link) => (

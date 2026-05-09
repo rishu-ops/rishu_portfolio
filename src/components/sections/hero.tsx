@@ -97,9 +97,9 @@ export function Hero() {
         <div className="py-16 lg:py-0">
           {/* Status */}
           <motion.div {...fadeUp(0.05)} className="flex items-center gap-2 mb-10">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-zinc-200 animate-pulse" />
             <span className="text-sm text-zinc-500 tracking-tight">
-              Open to full-time roles — Chandigarh / Remote
+              Open to full-time roles
             </span>
           </motion.div>
 
